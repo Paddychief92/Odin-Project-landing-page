@@ -5,8 +5,9 @@
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 ul {
@@ -21,8 +22,9 @@ p {
 
 header {
     width: 100%;
-    height: auto;
+    height: 100px;
     background-color: #1F2937;
+    padding: 20px;
 }
 
 .navbarcontainer {
@@ -43,5 +45,132 @@ header {
 
 .navbarcontainer li {
     margin: 0 15px;
+
+}
+
+/* Hero section */
+
+.section1 {
+    background-color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.section1-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+
+}
+
+.hero-section-left {
+
+    
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.hero-section-left h1 {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+.hero-section-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section-left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px;
+    border-style: none;
+    width: auto;
+    
+}
+
+.hero-section-right img {
+    width: auto;
+    height: 300px;
+}
+
+.section2-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.section2-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.section3-container {
+    margin: 50px;
+    padding: 50px;
+}
+
+
+
+.image-container, .description-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-container h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.island-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+
+.island {
+    height: 150px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    border-style: none;
+}
+
+.island-left {
+
+}
+
+.island-right button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #f9faf8;
+    width: auto;
+    padding: 10px;
 
 }
