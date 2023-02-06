@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 5px;
+}
+
+/* Navbar */
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #1F2937;
+}
+
+.navbarcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbarcontainer ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbarcontainer li {
+    margin: 0 15px;
+
+}
